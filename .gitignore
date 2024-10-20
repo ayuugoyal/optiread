@@ -1,0 +1,63 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Distribution/packaging
+build/
+dist/
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS file
+.DS_Store
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Python-specific cache files
+.cache/
+.pytest_cache/
+
+# Images or media (optional if you don't want to track test images)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Uvicorn reload
+*.reload
+
+# Ignore SQLite database (if used locally)
+*.sqlite3
+
+# Pytest coverage reports
+.coverage
+htmlcov/
+
+# Ignore any debug information
+debug.log
