@@ -42,9 +42,9 @@ This FastAPI application performs Optical Character Recognition (OCR) on uploade
 
 Start the FastAPI server using Uvicorn:
 
-    ```bash
-    uvicorn main:app --reload
-    ```
+```bash
+uvicorn main:app --reload
+```
 
 The application will be accessible at [http://localhost:8000](http://localhost:8000).
 
@@ -61,9 +61,9 @@ The application will be accessible at [http://localhost:8000](http://localhost:8
 
 #### Example Request (using cURL)
 
-    ```bash
-    curl -X POST "http://localhost:8000/extract/" -F "file=@path_to_your_image.jpg"
-    ```
+```bash
+curl -X POST "http://localhost:8000/extract/" -F "file=@path_to_your_image.jpg"
+```
 
 #### Example Response
 
