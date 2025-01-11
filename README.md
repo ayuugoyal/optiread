@@ -21,8 +21,8 @@ This FastAPI application performs Optical Character Recognition (OCR) on uploade
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd ocrex
+    git clone https://github.com/ayuugoyal/optiread.git
+    cd optiread
     ```
 
 2. Create and activate a virtual environment (optional but recommended):
